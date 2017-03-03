@@ -11,7 +11,7 @@ class ContactsController extends Controller {
         //$this->view->setVar('title', "My Contacts");
 
         $this->view->setVars([
-            'title' => "My Contacts",
+            'title' => "My Contacts...",
             'count' => "0000"
         ]);
     }
