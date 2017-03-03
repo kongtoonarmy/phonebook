@@ -1,1 +1,16 @@
 <h2><?php echo $title ?></h2>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Phone</td>
+    </tr>
+
+    <?php foreach ($contacts as $contact) { ?>
+    <tr>
+        <td><?php echo $contact->name ?></td>
+        <td><?php echo $contact->email ?></td>
+        <td><?php echo $contact->phone ?></td>
+    </tr>
+    <?php } ?>
+</table>
