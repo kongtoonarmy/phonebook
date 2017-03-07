@@ -40,7 +40,7 @@ try {
     // Register the URL service
     $di->set("url", function () {
         $url = new UrlProvider();
-        $url->setBaseUri("/phonebook/");
+        $url->setBaseUri("/");
         return $url;
     });
 
